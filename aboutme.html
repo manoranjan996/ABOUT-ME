@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <style>
+    body {
+      background-color: black;
+      color: black;
+    }
+    div{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: larger;
+      font-style: normal;
+      background-color: salmon
+    }
+
+    header {
+      background-color:black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+     
+    }
+    img{
+      border-radius: 50%;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      background: plum;
+    }
+
+    h2 {
+      color: white;
+       background-color: rgb(248, 40, 40);
+    }
+
+    table{
+      width:100%;
+      border-collapse: collapse;
+      margin-top: auto;
+     border: 4px solid;
+    }
+    th{
+      border: 4px solid;
+      color: black;
+      padding: 10px;
+      background-color: orangered;
+    } 
+    td {
+      padding: 8px;
+      text-align: center;
+      border: 2px solid;
+      background-color: yellowgreen;
+      
+    }
+
+    form input, form button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+      background-color: rgb(108, 198, 108);
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      margin-top: 10px;
+      border: none;
+    }
+  
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MANORANJAN KUMAR PANDEY</h1>
+    <p>Web Devloper <br> beginner / learner</p>
+  </header>
+
+  <main>
+    <section> 
+        <img src="manoranjan001.jpg" width="150px" height="150px">
+      <h2>About Me <img src="https://cdn-icons-png.flaticon.com/128/7710/7710521.png" width="17px" height="17px"></h2>
+      <div><p>Hi lovely viewers, myself manoranjan kumar pandey currently learning web development and exploring the exciting world of building websites and web applications. As a beginner, I’m focusing on mastering the core technologies like HTML, CSS, and JavaScript. I’m passionate about creating clean, responsive designs and interactive user experiences. Every day, I enjoy discovering how websites work behind the scenes and how I can bring ideas to life through code. My goal is to become a skilled full-stack developer and work on real-world projects. I'm eager to learn, open to feedback, and committed to growing step by step in this field.</p>
+   </div> </section>
+
+    <section>
+      <h2>My Hobbies <img src="https://cdn-icons-png.flaticon.com/128/13351/13351041.png" width="25px" height="25px"></h2>
+      <ol>
+        <li>playing cricket <img src="data:image/png;base64,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" width="17px" height="18px"></li>
+        <li>Gaming <img src="data:image/png;base64,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" width="20px" height="20px"></li>
+        <li>Traveling <img src="https://cdn-icons-png.flaticon.com/128/14018/14018200.png" width="17px" height="17px"></li>
+         <li>Drawing <img src="https://cdn-icons-png.flaticon.com/128/3199/3199899.png" width="17px" height="17px"></li>
+        <li>Exploring Tech <img src="https://cdn-icons-png.flaticon.com/128/1087/1087840.png" width="20px" height="20px"></li>
+        <li>Sharp minded developer  <img src="https://cdn-icons-png.flaticon.com/128/3242/3242257.png" width="20px" height="20px"></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>HERE IS MY WEEKLY WORKING SCHEDULE.... <img src="https://cdn-icons-png.flaticon.com/128/11629/11629566.png" width="30px" height="30px"></h2>
+      <table>
+        <tr><th>Day</th><th>Topic</th></tr>
+        <tr><td>sunday</td><td>full cricket</td></tr>
+        <tr><td>Monday</td><td>HTML</td></tr>
+        <tr><td>Tuesday</td><td>CSS</td></tr>
+        <tr><td>Wednesday</td><td>practice</td></tr>
+        <tr><td>Thursday</td><td>project practice</td></tr>
+        <tr><td>saturday</td><td>GitHub & git</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>CONTACT Me:-</h2>
+      <form>
+        <input type="text" placeholder="Your beautiful Name"/>
+        <input type="email" placeholder="Your Email id"/>
+         <input type="number" placeholder="Your personal contact no"/>
+         <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>My fav TIMEPASS show </h2>
+      <iframe src="https://youtu.be/L17AWPzHiCk?si=eUHL5FAZvfdupYTW" ></iframe>
+    </section>
+  </main>
+
+</body>
+</html>
